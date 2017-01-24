@@ -10,6 +10,14 @@ unset GIT_DIR     # Avoid GIT_DIR leak from previous build steps
 
 DEFAULT_CACHE="node_modules bower_components"
 
+
+### RVENNAM
+echo "----------------- RVENNAM -----------------"
+if [ -f .heroku/python-version ]; then
+  echo "----------------- found python -----------------"
+fi
+echo "----------------- /RVENNAM -----------------"
+
 ### Configure directories
 
 BUILD_DIR=${1:-}
