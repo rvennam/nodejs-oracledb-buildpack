@@ -16,6 +16,9 @@ echo "----------------- RVENNAM -----------------"
 if [ -f .heroku/python-version ]; then
   echo "----------------- found python -----------------"
 fi
+
+echo $(python --version)
+echo $(pip --version)
 echo "----------------- /RVENNAM -----------------"
 
 ### Configure directories
