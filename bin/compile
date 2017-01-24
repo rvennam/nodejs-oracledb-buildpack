@@ -19,6 +19,7 @@ fi
 
 echo $(python --version)
 echo $(pip --version)
+echo $BUILD_DIR
 echo "----------------- /RVENNAM -----------------"
 
 ### Configure directories
